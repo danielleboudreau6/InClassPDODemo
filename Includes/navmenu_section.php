@@ -24,6 +24,7 @@ $pages = array(
     'Contact' =>'/InClassPDODemo/contact.php',
     'Categories' => '/InClassPDODemo/categories.php',
     'Articles' => '/InClassPDODemo/articles.php',
+    'Add Category' => '/InClassPDODemo/addcategory.php',
 );
 
 $this_page = $_SERVER['REQUEST_URI'];

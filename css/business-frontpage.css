@@ -4,6 +4,25 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
 
+/* mwilliams:  Sticky footer styles */
+html{
+    position:relative;
+    min-height: 100%
+}
+
+footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px; /* set fixed height - match body margin-bottom*/
+}
+/*  end sticky footer styles*/
+body {
+  padding-top: 54px;
+  margin-bottom:100px; /* mwilliams: for sticky footer */
+
+}
+
 body {
   padding-top: 54px;
 }
